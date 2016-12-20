@@ -1,4 +1,4 @@
-# wildhacks2016
+# ScavengeFun
 
 DOCUMENTATION: A twilio/clarifai based scavenger hunt
 Created by Theodore Bisdikian, Sebastian Dobon, Will Lundgren, Elana Stettin
