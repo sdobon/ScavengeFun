@@ -7,7 +7,7 @@ CHANGELOG:
   12/19/2016 Initial commit after wildhacks2016
   12/22/2016 Modularized and cleaned up code for easier maintenance, Added multiple game functionality
 
-run twil.py on a remote host or a local host tunneled to a remote host.
+Run twil.py on a remote host or a local host tunneled to a remote host.
 
 Our project is a sms/mms based scavenger hunt. To play, a host first tests the following to the host number (224)265-4689
 Create
