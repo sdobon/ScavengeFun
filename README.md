@@ -2,6 +2,8 @@
 
 An MMS picture based scavenger hunt using Twilio automated sms and ClarifAI image recognition. Forked from a project created at wildhacks2016 by myself, Theodore Bisdikian, Will Lundgren, and Elana Stettin.
 
+-----------------------------------------------------------------------------------------------------
+
 CHANGELOG:
 
 Modularized and cleaned up code for easier updates, Added multiple game functionality - 12/22/2016
@@ -9,6 +11,9 @@ Modularized and cleaned up code for easier updates, Added multiple game function
 Initial commit after wildhacks2016 - 12/19/2016
 
 ------------------------------------------------------------------------------------------------------
+
+INSTRUCTIONS:
+
 
 Run flask.py on a remote host or a local host tunneled to a remote host.
 
