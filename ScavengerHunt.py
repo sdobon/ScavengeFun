@@ -10,6 +10,7 @@ class ScavengerHunt:
 		for word in keywords:
 			self.keywords.append(word.strip())
 		self.code = createCode()
+		self.setup = True
 
 	def addPlayer(self, player_num, player_name):
 		self.players[player_num] = Player(player_num, player_name)
