@@ -17,16 +17,16 @@ INSTRUCTIONS:
 
 Run flask.py on a remote host or a local host tunneled to a remote host.
 
-To play, a host first texts the following to the host number (224)265-4689
+To play, a host first texts the following to the host number (224)265-4689 in the following format:
 
-Create
-Your name
-A list of objects to be found, separated by line breaks
+- Create
+- Your name
+- A list of objects to be found, separated by line breaks
 
 A 5 letter code will be sent back to the host. This will be used by other players to join using the following format:
-Join
-Your name
-code
+- Join
+- Your name
+- entry code
 
 Then the host may insert "Status" to view the current players' names, or "Start" to begin the scavenger hunt.
 Once the game has started, all users can text in pictures of items to the number. The system will test the picture using clarifai
