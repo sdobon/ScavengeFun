@@ -4,8 +4,8 @@ DOCUMENTATION: A twilio/clarifai based scavenger hunt
 Created by Theodore Bisdikian, Sebastian Dobon, Will Lundgren, Elana Stettin
 
 CHANGELOG:
-  12/19/2016 Initial commit after wildhacks2016
-  12/22/2016 Modularized and cleaned up code for easier maintenance, Added multiple game functionality
+12/19/2016 Initial commit after wildhacks2016
+12/22/2016 Modularized and cleaned up code for easier maintenance, Added multiple game functionality
 
 Run twil.py on a remote host or a local host tunneled to a remote host.
 
