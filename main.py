@@ -64,6 +64,7 @@ def handleInput(hunt, from_number, msg_body):
 				hunt.setup = False
 				broadcast(hunt, "The game has started")
 				response = "The game has started"
+				hunt.addPlayer(hunt.host_num, hunt.host_name)
 			if str(msg_body[0]) == "Status":
 				response = "The players in this game are: \n"
 				for num in hunt.players:
@@ -112,9 +113,10 @@ def handleInput(hunt, from_number, msg_body):
 	#---------------------------------------------------------------------------------------------------------
 
 def broadcast(hunt, msg):
-	for player in hunt.players:
-		client.messages.create(
-		    to= player.num,
+	for recipient in hunt.players:
+		to = hunt.players[recipient].num
+		twilioClient.messages.create(
+		    to= to,
 		    from_="+12242654689",
 		    body= msg
 		)
